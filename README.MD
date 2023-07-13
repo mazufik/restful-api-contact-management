@@ -44,4 +44,17 @@
 
 ## Clone Project
 
+`
+git clone https://github.com/mazufik/restful-api-contact-management.git
+
+cd restful-api-contact-management
+
+npm install
+`
+
 ## Run Project
+
+`
+npm run dev
+`
+
