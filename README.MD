@@ -57,6 +57,11 @@ npm install
 - Rename file .env.example to be .env
 - Setting database user, database password and database name on file .env
 
+## Migrations Model
+```
+npx prisma migrate dev
+```
+
 ## Run Project
 
 ```
