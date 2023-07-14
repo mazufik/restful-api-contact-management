@@ -52,6 +52,11 @@ cd restful-api-contact-management
 npm install
 ```
 
+## Setup Database
+- Create new database example db_contact
+- Rename file .env.example to be .env
+- Setting database user, database password and database name on file .env
+
 ## Run Project
 
 ```
