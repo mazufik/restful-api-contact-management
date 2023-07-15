@@ -68,3 +68,7 @@ npx prisma migrate dev
 npm run dev
 ```
 
+## Run Unit Test
+```
+npm run test
+```
