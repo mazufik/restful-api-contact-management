@@ -4,7 +4,7 @@
   "description": "Restful API Contact Management",
   "main": "src/main.js",
   "scripts": {
-    "test": "jest -i"
+    "test": "jest -i --watchAll --coverage"
   },
   "jest": {
     "transform": {
