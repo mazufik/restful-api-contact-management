@@ -4,6 +4,7 @@ import {
   getUserValidation,
   loginUserValidation,
   registerUserValidation,
+  updateUserValidation,
 } from "../validation/user-validation.js";
 import { validate } from "../validation/validation.js";
 import bcrypt from "bcrypt";
@@ -109,4 +110,43 @@ const getUser = async (username) => {
   return user;
 };
 
-export default { register, login, getUser };
+const updateUser = async (request) => {
+  // validasi datanya
+  const user = validate(updateUserValidation, request);
+
+  // mengecek data yang akan di update di database
+  const totalUserInDatabase = await prismaClient.user.count({
+    where: {
+      username: user.username,
+    },
+  });
+
+  // jika data usernya tidak ada
+  if (totalUserInDatabase !== 1) {
+    throw new ResponseError(404, "User is not found");
+  }
+
+  // kalau user di temukan
+  const data = {};
+  // kalau ingin update nama
+  if (user.name) {
+    data.name = user.name;
+  }
+  // kalau ingin update password
+  if (user.password) {
+    data.password = await bcrypt.hash(user.password, 10);
+  }
+
+  return prismaClient.user.update({
+    where: {
+      username: user.username,
+    },
+    data: data,
+    select: {
+      username: true,
+      name: true,
+    },
+  });
+};
+
+export default { register, login, getUser, updateUser };
