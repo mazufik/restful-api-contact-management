@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1689597525704" clover="3.2.0">
-  <project timestamp="1689597525704" name="All files">
-    <metrics statements="140" coveredstatements="128" conditionals="26" coveredconditionals="20" methods="24" coveredmethods="22" elements="190" coveredelements="170" complexity="0" loc="140" ncloc="140" packages="8" files="16" classes="16"/>
+<coverage generated="1689688265611" clover="3.2.0">
+  <project timestamp="1689688265611" name="All files">
+    <metrics statements="160" coveredstatements="148" conditionals="28" coveredconditionals="22" methods="28" coveredmethods="26" elements="216" coveredelements="196" complexity="0" loc="160" ncloc="160" packages="8" files="16" classes="16"/>
     <package name="src.application">
       <metrics statements="15" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
       <file name="database.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/application/database.js">
@@ -14,7 +14,7 @@
         <line num="33" count="2" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
-        <line num="38" count="210" type="stmt"/>
+        <line num="38" count="252" type="stmt"/>
       </file>
       <file name="logging.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/application/logging.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -30,9 +30,9 @@
       </file>
     </package>
     <package name="src.controller">
-      <metrics statements="36" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <metrics statements="43" coveredstatements="40" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
       <file name="contact-controller.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/controller/contact-controller.js">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
@@ -40,6 +40,13 @@
         <line num="7" count="2" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
       </file>
       <file name="user-controller.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/controller/user-controller.js">
         <metrics statements="29" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
@@ -78,8 +85,8 @@
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="response-error.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/error/response-error.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="6" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.middleware">
@@ -87,36 +94,37 @@
       <file name="auth-middleware.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/middleware/auth-middleware.js">
         <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="3" count="2" type="stmt"/>
-        <line num="4" count="10" type="stmt"/>
-        <line num="5" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="12" type="stmt"/>
+        <line num="5" count="12" type="cond" truecount="1" falsecount="1"/>
         <line num="6" count="0" type="stmt"/>
-        <line num="13" count="10" type="stmt"/>
-        <line num="18" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="12" type="stmt"/>
+        <line num="18" count="12" type="cond" truecount="2" falsecount="0"/>
         <line num="19" count="3" type="stmt"/>
-        <line num="26" count="7" type="stmt"/>
-        <line num="27" count="7" type="stmt"/>
+        <line num="26" count="9" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
       </file>
       <file name="error-middleware.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/middleware/error-middleware.js">
         <metrics statements="7" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="3" count="2" type="stmt"/>
-        <line num="4" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="7" type="cond" truecount="1" falsecount="1"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
-        <line num="9" count="6" type="cond" truecount="1" falsecount="1"/>
-        <line num="10" count="6" type="stmt"/>
+        <line num="9" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="7" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.route">
-      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="api.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/route/api.js">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
         <line num="11" count="2" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
       </file>
       <file name="public-api.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/route/public-api.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -126,13 +134,19 @@
       </file>
     </package>
     <package name="src.service">
-      <metrics statements="44" coveredstatements="41" conditionals="16" coveredconditionals="13" methods="6" coveredmethods="6"/>
+      <metrics statements="50" coveredstatements="47" conditionals="18" coveredconditionals="15" methods="7" coveredmethods="7"/>
       <file name="contact-service.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/service/contact-service.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="44" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
       </file>
       <file name="user-service.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/service/user-service.js">
         <metrics statements="40" coveredstatements="37" conditionals="16" coveredconditionals="13" methods="5" coveredmethods="5"/>
@@ -179,10 +193,11 @@
       </file>
     </package>
     <package name="src.validation">
-      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="contact-validation.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/validation/contact-validation.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
       </file>
       <file name="user-validation.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/validation/user-validation.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -194,24 +209,29 @@
       <file name="validation.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/src/validation/validation.js">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="3" count="2" type="stmt"/>
-        <line num="4" count="15" type="stmt"/>
-        <line num="8" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="17" type="stmt"/>
+        <line num="8" count="17" type="cond" truecount="2" falsecount="0"/>
         <line num="9" count="3" type="stmt"/>
-        <line num="11" count="12" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
       </file>
     </package>
     <package name="test">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <file name="test-util.js" path="/home/mazufik/portpolio/DEVELOPMENT/GITHUB/restfull-api-contact/test/test-util.js">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="4" count="2" type="stmt"/>
-        <line num="5" count="17" type="stmt"/>
+        <line num="5" count="19" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
-        <line num="13" count="14" type="stmt"/>
+        <line num="13" count="16" type="stmt"/>
         <line num="23" count="2" type="stmt"/>
         <line num="24" count="3" type="stmt"/>
         <line num="31" count="2" type="stmt"/>
-        <line num="32" count="2" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
       </file>
     </package>
   </project>
