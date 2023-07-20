@@ -22,7 +22,7 @@ const create = async (user, contactId, request) => {
 
   // validasi address
   const address = validate(createAddressValidation, request);
-  address.contact_id = contactId;
+  address.contactId = contactId;
 
   // kalau contact nya ada
   return prismaClient.address.create({
