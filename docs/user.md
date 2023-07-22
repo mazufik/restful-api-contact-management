@@ -33,7 +33,7 @@ Response Body Error :
 }
 ```
 
-## Login User API
+## LoginUser API
 
 Endpoint : `POST /api/users/Login`
 

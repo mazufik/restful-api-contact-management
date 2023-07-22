@@ -125,6 +125,8 @@ const search = async (user, request) => {
           firstName: {
             contains: request.name,
           },
+        },
+        {
           lastName: {
             contains: request.name,
           },
