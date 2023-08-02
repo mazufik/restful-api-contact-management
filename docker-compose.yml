@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  db:
+    image: "postgres"
+    ports:
+      - "5434:5432"
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_DB: "db_contact"
+  server:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      DATABASE_URL: 'postgresql://postgres:postgres@db:5432/db_contact'
+ 
