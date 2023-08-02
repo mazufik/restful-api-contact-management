@@ -1,4 +1,4 @@
-# Restfull API Contact Management (NodeJS, ExpressJS, PostgreSQL)
+# Restfull API Contact Management (NodeJS, ExpressJS, PostgreSQL and Docker)
 ## User Management Requirement
 
 1. User Data
@@ -49,7 +49,7 @@ git clone https://github.com/mazufik/restful-api-contact-management.git
 
 cd restful-api-contact-management
 
-npm install
+docker-compose up -d
 ```
 
 ## Setup Database
